@@ -3,10 +3,6 @@ This Library is intended for use with NCD 1 Relay Particle Core/Photon compatibl
 
 The intention of this library is to make use of the NCD 1 channel relay controller with Particle development web IDE as simple as possible for users.
 
-Developer information
-
-NCD has been designing and manufacturing computer control products since 1995. We have specialized in hardware design and manufacturing of Relay controllers for 20 years. We pride ourselves as being the industry leader of computer control relay products. Our products are proven reliable and we are very excited to support Particle. For more information on NCD please visit www.controlanything.com
-
 Requirements
 
 NCD 1 Channel Particle Core/Photon Compatible Relay board
@@ -18,22 +14,22 @@ Version
 
 How to use this library
 
-The libary must be imported into your application. This can be done through the Particle WEB IDE by selecting Libraries, then select the NCD1Relay. Click Include in App button. Select the App you want to include the library in. Finally click Add to this app. For more information see Particles's documentation
+The libary must be imported into your application. This can be done through the Particle WEB IDE by selecting Libraries, then select the Layer7Relay. Click Include in App button. Select the App you want to include the library in. Finally click Add to this app. For more information see Particles's documentation
 
 Example use
 
 Once the Library is included in your applicaiton you should see an include statement at the top like this:
 
 //This #include statement was automatically added by the Particle IDE.
-#include "NCD1Relay/NCD1Relay.h"
+#include "Layer7Relay/Layer7Relay.h"
 Now you need to instanciate an object of the library for use in your application like this:
 
 NCD1Relay relayController;
 Here is an example use case for the class
 
 // This #include statement was automatically added by the Particle IDE.
-#include "NCD1Relay/NCD1Relay.h"
-NCD1Relay relayController;
+#include "Layer7Relay/Layer7Relay.h"
+Layer7Relay relayController;
 
 void setup() {
 Serial.begin(115200);
