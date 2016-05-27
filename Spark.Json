@@ -1,0 +1,7 @@
+{
+    "name": "Layer7Relay",
+    "version": "0.0.3",
+    "author": "Tony Schneider <socalsurfer37@gmail.com>",
+    "license": "GNU",
+    "description": "Library intended for the operation of NCD 1 channel Particle compatible Relay Controller"
+}
