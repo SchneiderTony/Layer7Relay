@@ -1,3 +1,17 @@
+
+    int readRelayStatus();
+    //Read status of input
+    int readInputStatus(int input);
+    //Read status of all inputs
+    int readAllInputs();
+    
+    //Status of relays in bank 1
+    byte bankOneStatus;
+
+};
+
+
+
 #include "spark_wiring_i2c.h"
 #include "spark_wiring_usbserial.h"
 #include "spark_wiring_constants.h"
